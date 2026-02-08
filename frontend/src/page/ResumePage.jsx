@@ -6,8 +6,8 @@ import {
   Award,
   Link as LinkIcon,
 } from "lucide-react";
-import SEO from "../Component/SEO";
-import Me from "../Assets/Image/Me.jpg";
+import SEO from "../component/SEO/SEO";
+import Me from "../assets/image/Me.jpg";
 
 function Resume() {
   return (

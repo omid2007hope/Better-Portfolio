@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import Logo from "../Assets/Image/Logo.svg";
+import Logo from "../../assets/image/Logo.svg";
 
 function Header() {
   const location = useLocation();

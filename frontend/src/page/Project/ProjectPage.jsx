@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import { Github, Linkedin, X } from "lucide-react";
-import Portfolio from "../Assets/Image/Portfolio.jpeg";
-import Velora from "../Assets/Image/Velora.jpeg";
-import SEO from "../Component/SEO";
-import VCCE from "../Assets/Image/VCCE.jpeg";
+import Portfolio from "../../assets/image/Portfolio.jpeg";
+import Velora from "../../assets/image/Velora.jpeg";
+import SEO from "../../component/SEO/SEO";
 
 function Project() {
   const projects = [

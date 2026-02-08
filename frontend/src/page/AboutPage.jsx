@@ -1,4 +1,4 @@
-import SEO from "../Component/SEO";
+import SEO from "../Component/SEO/SEO";
 
 function About() {
   return (

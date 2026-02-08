@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Github, Linkedin, X, Mail, MapPin } from "lucide-react";
-import SEO from "../Component/SEO";
+import SEO from "../Component/SEO/SEO";
 
 import emailjs from "@emailjs/browser";
 

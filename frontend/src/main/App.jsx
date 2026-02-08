@@ -1,14 +1,16 @@
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Header from "../Navigation/Header";
+import Header from "../component/layout/Header";
 
-const Home = lazy(() => import("../Page/Home"));
-const About = lazy(() => import("../Page/About"));
-const Contact = lazy(() => import("../Page/Contact"));
-const Projects = lazy(() => import("../Page/Project"));
-const Resume = lazy(() => import("../Page/Resume"));
-const ProjectShowcase = lazy(() => import("../Component/ProjectShowcase"));
+const Home = lazy(() => import("../page/HomePage"));
+const About = lazy(() => import("../page/AboutPage"));
+const Contact = lazy(() => import("../page/ContactPage"));
+const Projects = lazy(() => import("../page/Project/ProjectPage"));
+const Resume = lazy(() => import("../page/ResumePage"));
+const ProjectShowcase = lazy(
+  () => import("../page/Project/ProjectShowCasePage"),
+);
 
 function App() {
   return (

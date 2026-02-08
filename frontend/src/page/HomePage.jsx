@@ -1,9 +1,9 @@
 import { Suspense, lazy, useState } from "react";
 import { Atom, Github, Linkedin, X } from "lucide-react";
-import SEO from "../Component/SEO";
+import SEO from "../component/SEO/SEO";
 import Me from "../Assets/Image/Me.jpg";
 
-const ChatBox = lazy(() => import("./ChatBox"));
+const ChatBox = lazy(() => import("./AiChatBox"));
 
 function Home() {
   const [open, setOpen] = useState(false);

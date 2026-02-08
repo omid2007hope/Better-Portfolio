@@ -1,13 +1,12 @@
 import { useParams } from "react-router-dom";
 import { Sparkle } from "lucide-react";
-import SEO from "./SEO";
-import Portfolio from "../Assets/Image/Portfolio.jpeg";
-import Portfolio1 from "../Assets/Image/Portfolio1.png";
-import Portfolio2 from "../Assets/Image/Portfolio2.png";
-import Velora from "../Assets/Image/Velora.jpeg";
-import Velora1 from "../Assets/Image/Velora1.png";
-import Velora2 from "../Assets/Image/Velora2.png";
-import VCCE from "../Assets/Image/VCCE.jpeg";
+import SEO from "../../component/SEO/SEO";
+import Portfolio from "../../assets/image/Portfolio.jpeg";
+import Portfolio1 from "../../assets/image/Portfolio1.png";
+import Portfolio2 from "../../assets/image/Portfolio2.png";
+import Velora from "../../assets/image/Velora.jpeg";
+import Velora1 from "../../assets/image/Velora1.png";
+import Velora2 from "../../assets/image/Velora2.png";
 
 function ProjectShowcase() {
   const { id } = useParams();
